@@ -1,7 +1,5 @@
 function getFormvalue() {
     //Write your code here
-	let names1 = document.getElementByTagName("input");
-	alert(names1[0].innerText,names1[1].innerText)
-
+	const form = document.querySelector("form");
+	alert(form.fname.value+" "+form.lname.value)
 }
-getFormvalue();
